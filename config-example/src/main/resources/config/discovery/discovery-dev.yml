@@ -1,5 +1,5 @@
-eureka: 
-  client: 
-    service-url: 
-      defaultZone: http://discoverytest:8761/eureka
-
+---
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://discovery0:0000/eureka"
