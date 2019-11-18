@@ -5,4 +5,4 @@ spring:
     profiles: null
     active: "dev"
 server:
-  port: "0000"
+  port: "0220"

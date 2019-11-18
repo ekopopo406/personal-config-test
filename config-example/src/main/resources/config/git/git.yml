@@ -2,7 +2,7 @@
 spring:
   cloud:
     config:
-      uri: "http://discovery0:0000"
+      uri: "http://config002:0220"
       server:
         git:
           uri: "https://github.ibm.com/yuziyang/config-repo.git"
