@@ -1,14 +1,9 @@
+---
 spring:
-  cloud: 
-    config: 
-      uri: http://config-example:8888
-      server: 
+  cloud:
+    config:
+      uri: "http://discovery0:0000"
+      server:
         git:
-          uri: https://github.ibm.com/yuziyang/config-repo.git
-          default-label: master
-          # username: 870724731@qq.com
-          # password: yzy199761
-        # native: 
-        #   searchLocations: classpath:/conf
-
-
+          uri: "https://github.ibm.com/yuziyang/config-repo.git"
+          default-label: "master"
